@@ -634,6 +634,7 @@ M = {
   statusline = status_dispatch('sections'),
   tabline = tabline,
   get_config = modules.config_module.get_config,
+  apply_configuration = modules.config_module.apply_configuration,
   refresh = refresh,
   winbar = status_dispatch('winbar'),
   hide = hide,
